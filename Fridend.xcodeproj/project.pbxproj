@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2CD6D0A277920480089FC02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D09277920480089FC02 /* AppDelegate.swift */; };
+		D2CD6D0C277920480089FC02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D0B277920480089FC02 /* SceneDelegate.swift */; };
+		D2CD6D0E277920480089FC02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D0D277920480089FC02 /* ViewController.swift */; };
+		D2CD6D11277920480089FC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CD6D0F277920480089FC02 /* Main.storyboard */; };
+		D2CD6D132779204A0089FC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CD6D122779204A0089FC02 /* Assets.xcassets */; };
+		D2CD6D162779204A0089FC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CD6D142779204A0089FC02 /* LaunchScreen.storyboard */; };
+		D2CD6D212779204B0089FC02 /* FridendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D202779204B0089FC02 /* FridendTests.swift */; };
+		D2CD6D2B2779204B0089FC02 /* FridendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D2A2779204B0089FC02 /* FridendUITests.swift */; };
+		D2CD6D2D2779204B0089FC02 /* FridendUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD6D2C2779204B0089FC02 /* FridendUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2CD6D1D2779204B0089FC02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2CD6CFE277920480089FC02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2CD6D05277920480089FC02;
+			remoteInfo = Fridend;
+		};
+		D2CD6D272779204B0089FC02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2CD6CFE277920480089FC02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2CD6D05277920480089FC02;
+			remoteInfo = Fridend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2CD6D06277920480089FC02 /* Fridend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fridend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CD6D09277920480089FC02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2CD6D0B277920480089FC02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2CD6D0D277920480089FC02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2CD6D10277920480089FC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2CD6D122779204A0089FC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2CD6D152779204A0089FC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2CD6D172779204A0089FC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CD6D1C2779204B0089FC02 /* FridendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FridendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CD6D202779204B0089FC02 /* FridendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridendTests.swift; sourceTree = "<group>"; };
+		D2CD6D262779204B0089FC02 /* FridendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FridendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CD6D2A2779204B0089FC02 /* FridendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridendUITests.swift; sourceTree = "<group>"; };
+		D2CD6D2C2779204B0089FC02 /* FridendUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridendUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2CD6D03277920480089FC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CD6D192779204B0089FC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CD6D232779204B0089FC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2CD6CFD277920480089FC02 = {
+			isa = PBXGroup;
+			children = (
+				D2CD6D08277920480089FC02 /* Fridend */,
+				D2CD6D1F2779204B0089FC02 /* FridendTests */,
+				D2CD6D292779204B0089FC02 /* FridendUITests */,
+				D2CD6D07277920480089FC02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2CD6D07277920480089FC02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD6D06277920480089FC02 /* Fridend.app */,
+				D2CD6D1C2779204B0089FC02 /* FridendTests.xctest */,
+				D2CD6D262779204B0089FC02 /* FridendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2CD6D08277920480089FC02 /* Fridend */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD6D09277920480089FC02 /* AppDelegate.swift */,
+				D2CD6D0B277920480089FC02 /* SceneDelegate.swift */,
+				D2CD6D0D277920480089FC02 /* ViewController.swift */,
+				D2CD6D0F277920480089FC02 /* Main.storyboard */,
+				D2CD6D122779204A0089FC02 /* Assets.xcassets */,
+				D2CD6D142779204A0089FC02 /* LaunchScreen.storyboard */,
+				D2CD6D172779204A0089FC02 /* Info.plist */,
+			);
+			path = Fridend;
+			sourceTree = "<group>";
+		};
+		D2CD6D1F2779204B0089FC02 /* FridendTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD6D202779204B0089FC02 /* FridendTests.swift */,
+			);
+			path = FridendTests;
+			sourceTree = "<group>";
+		};
+		D2CD6D292779204B0089FC02 /* FridendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD6D2A2779204B0089FC02 /* FridendUITests.swift */,
+				D2CD6D2C2779204B0089FC02 /* FridendUITestsLaunchTests.swift */,
+			);
+			path = FridendUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2CD6D05277920480089FC02 /* Fridend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CD6D302779204B0089FC02 /* Build configuration list for PBXNativeTarget "Fridend" */;
+			buildPhases = (
+				D2CD6D02277920480089FC02 /* Sources */,
+				D2CD6D03277920480089FC02 /* Frameworks */,
+				D2CD6D04277920480089FC02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fridend;
+			productName = Fridend;
+			productReference = D2CD6D06277920480089FC02 /* Fridend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2CD6D1B2779204B0089FC02 /* FridendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CD6D332779204B0089FC02 /* Build configuration list for PBXNativeTarget "FridendTests" */;
+			buildPhases = (
+				D2CD6D182779204B0089FC02 /* Sources */,
+				D2CD6D192779204B0089FC02 /* Frameworks */,
+				D2CD6D1A2779204B0089FC02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2CD6D1E2779204B0089FC02 /* PBXTargetDependency */,
+			);
+			name = FridendTests;
+			productName = FridendTests;
+			productReference = D2CD6D1C2779204B0089FC02 /* FridendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2CD6D252779204B0089FC02 /* FridendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2CD6D362779204B0089FC02 /* Build configuration list for PBXNativeTarget "FridendUITests" */;
+			buildPhases = (
+				D2CD6D222779204B0089FC02 /* Sources */,
+				D2CD6D232779204B0089FC02 /* Frameworks */,
+				D2CD6D242779204B0089FC02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2CD6D282779204B0089FC02 /* PBXTargetDependency */,
+			);
+			name = FridendUITests;
+			productName = FridendUITests;
+			productReference = D2CD6D262779204B0089FC02 /* FridendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2CD6CFE277920480089FC02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D2CD6D05277920480089FC02 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D2CD6D1B2779204B0089FC02 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D2CD6D05277920480089FC02;
+					};
+					D2CD6D252779204B0089FC02 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D2CD6D05277920480089FC02;
+					};
+				};
+			};
+			buildConfigurationList = D2CD6D01277920480089FC02 /* Build configuration list for PBXProject "Fridend" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2CD6CFD277920480089FC02;
+			productRefGroup = D2CD6D07277920480089FC02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2CD6D05277920480089FC02 /* Fridend */,
+				D2CD6D1B2779204B0089FC02 /* FridendTests */,
+				D2CD6D252779204B0089FC02 /* FridendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2CD6D04277920480089FC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CD6D162779204A0089FC02 /* LaunchScreen.storyboard in Resources */,
+				D2CD6D132779204A0089FC02 /* Assets.xcassets in Resources */,
+				D2CD6D11277920480089FC02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CD6D1A2779204B0089FC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CD6D242779204B0089FC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2CD6D02277920480089FC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CD6D0E277920480089FC02 /* ViewController.swift in Sources */,
+				D2CD6D0A277920480089FC02 /* AppDelegate.swift in Sources */,
+				D2CD6D0C277920480089FC02 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CD6D182779204B0089FC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CD6D212779204B0089FC02 /* FridendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CD6D222779204B0089FC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CD6D2B2779204B0089FC02 /* FridendUITests.swift in Sources */,
+				D2CD6D2D2779204B0089FC02 /* FridendUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2CD6D1E2779204B0089FC02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2CD6D05277920480089FC02 /* Fridend */;
+			targetProxy = D2CD6D1D2779204B0089FC02 /* PBXContainerItemProxy */;
+		};
+		D2CD6D282779204B0089FC02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2CD6D05277920480089FC02 /* Fridend */;
+			targetProxy = D2CD6D272779204B0089FC02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2CD6D0F277920480089FC02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2CD6D10277920480089FC02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2CD6D142779204A0089FC02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2CD6D152779204A0089FC02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2CD6D2E2779204B0089FC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2CD6D2F2779204B0089FC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2CD6D312779204B0089FC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fridend/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChristinaChau.Fridend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2CD6D322779204B0089FC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fridend/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChristinaChau.Fridend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2CD6D342779204B0089FC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChristinaChau.FridendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fridend.app/Fridend";
+			};
+			name = Debug;
+		};
+		D2CD6D352779204B0089FC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChristinaChau.FridendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fridend.app/Fridend";
+			};
+			name = Release;
+		};
+		D2CD6D372779204B0089FC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChristinaChau.FridendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fridend;
+			};
+			name = Debug;
+		};
+		D2CD6D382779204B0089FC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChristinaChau.FridendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fridend;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2CD6D01277920480089FC02 /* Build configuration list for PBXProject "Fridend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CD6D2E2779204B0089FC02 /* Debug */,
+				D2CD6D2F2779204B0089FC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CD6D302779204B0089FC02 /* Build configuration list for PBXNativeTarget "Fridend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CD6D312779204B0089FC02 /* Debug */,
+				D2CD6D322779204B0089FC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CD6D332779204B0089FC02 /* Build configuration list for PBXNativeTarget "FridendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CD6D342779204B0089FC02 /* Debug */,
+				D2CD6D352779204B0089FC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2CD6D362779204B0089FC02 /* Build configuration list for PBXNativeTarget "FridendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CD6D372779204B0089FC02 /* Debug */,
+				D2CD6D382779204B0089FC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2CD6CFE277920480089FC02 /* Project object */;
+}
